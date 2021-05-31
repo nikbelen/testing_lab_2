@@ -20,7 +20,7 @@ TEST (p1_test, common)
     p1(txt,"zero line");
     EXPECT_EQ(txt->liist.size(),6);
 
-    auto it = txt->liist.begin();
+    std::list<std::string>::iterator it = txt->liist.begin();
     EXPECT_STREQ((*it).c_str(),"zero line");
     std::advance(it,1);
     EXPECT_STREQ((*it).c_str(),"1st line");
