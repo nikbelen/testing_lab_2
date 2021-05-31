@@ -22,7 +22,7 @@ HEADERS +=     save_test.h \
                m_test.h \
                ../app/common.h \
                ../app/text/text.h \
-               ../app/text/_text.h \
+               ../app/text/_text.h
 
 
 SOURCES +=     main.cpp \

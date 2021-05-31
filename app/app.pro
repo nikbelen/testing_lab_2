@@ -2,7 +2,7 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
-CONFIG += c++11
+CONFIG += c++17
 
 SOURCES += \
     load.cpp \
@@ -16,7 +16,7 @@ SOURCES += \
     text/remove_all.cpp \
     text/append_line.cpp \
     text/create_text.cpp \
-    editor.cpp \
+    editor.cpp
 
 
 
@@ -24,7 +24,7 @@ SOURCES += \
 HEADERS += \
     text/text.h \
     text/_text.h \
-    common.h \
+    common.h
 
 QMAKE_CFLAGS += -Wall -Wextra #-Werror
 
