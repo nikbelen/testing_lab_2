@@ -18,7 +18,7 @@ void load(text txt,std::string filename)
 {
     std::ifstream f;
     std::string buf;
-    f.open(filename);
+    f.open(filename.c_str());
 
     if(!f.good())
     {
